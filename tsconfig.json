@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "ESNext",                                   /* Specify what module code is generated. */
+    "esModuleInterop": true,                              /* Emit additional JavaScript to ease support for importing CommonJS modules. */
+    "forceConsistentCasingInFileNames": true,              /* Ensure that casing is correct in imports. */
+
+    /* Modules */
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    "declaration": true,                                   /* Generate .d.ts files for all TypeScript files. */
+    "declarationMap": true,                                /* Create sourcemaps for d.ts files. */
+    "sourceMap": true,                                     /* Create source map files for emitted JavaScript files. */
+    "allowJs": true,                                       /* Allow JavaScript files to be a part of your program. */
+    "checkJs": true,                                       /* Enable error reporting in JavaScript files. */
+    
+    /* Type Checking */
+    "strict": true,                                        /* Enable all strict type-checking options. */
+    "skipLibCheck": true,                                  /* Skip type checking all .d.ts files. */
+    
+    /* Interop Constraints */
+    "moduleResolution": "node",                            /* Specify how TypeScript looks up a file from a given module specifier. */
+
+    /* Other */
+    "removeComments": true,                                /* Disable emitting comments. */
+    "noEmitOnError": true,                                 /* Disable emitting files if any type checking errors are reported. */
+    "noImplicitAny": true,                                 /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+
+    /* Optional for strict checking */
+    "noUnusedLocals": true,                                /* Enable error reporting when local variables aren't read. */
+    "noUnusedParameters": true,                            /* Enable error reporting when function parameters aren't read. */
+    "noImplicitReturns": true,                             /* Enable error reporting for code paths that do not explicitly return in a function. */
+    "noFallthroughCasesInSwitch": true,                    /* Enable error reporting for fallthrough cases in switch statements. */
+    
+    /* Enable additional features */
+    "skipDefaultLibCheck": true                            /* Skip type checking default library files. */
+  },
+  "include": [
+    "src/**/*",                                            /* Include all TypeScript files in the src folder. */
+    "dist/**/*"                                       /* Include declaration files in the dist folder. */
+  ],
+  "exclude": [
+    "node_modules"                                         /* Exclude node_modules from being compiled. */
+  ]
+}
